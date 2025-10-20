@@ -8,13 +8,18 @@ namespace ProgrammersNET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(amountValue.Value))
-            {
-                if (Decimal.TryParse(amountValue.Value, out decimal amount))
+            if (IsPostBack)
+                if (!string.IsNullOrWhiteSpace(amountValue.Value))
                 {
-                    txtResult.Value = ConvertAmountToWords(amount);
+                    if (Decimal.TryParse(amountValue.Value, out decimal amount))
+                    {
+                        txtResult.Value = ConvertAmountToWords(amount);
+                    }
                 }
-            }
+                else
+                {
+                    txtResult.Value = "The input is not a valid number";
+                }
         }
 
         static string ConvertAmountToWords(decimal amount)

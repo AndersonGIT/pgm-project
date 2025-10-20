@@ -20,7 +20,7 @@
                     <small id="amountHelp" class="form-text text-muted">The amount value to be writen in extension.</small>
                     <p>
                         <br />
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Convert</button>
                     </p>
                 </div>
                 <div class="form-group">
