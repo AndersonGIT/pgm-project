@@ -3,38 +3,29 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h3>Anderson Diego</h3>
+        <img width="240" src="https://media.licdn.com/dms/image/v2/D4D03AQELbw4IClyCrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722708715493?e=1762387200&v=beta&t=ic4OXY9A7eYdHnCyzoioqohMquTLaDaqDItRWlZgZow" alt="Anderson Diego - Linkedin Profile Picture">
+        <p class="lead">This is a project built in .NET using ASP.NET WebForms.</p>
+        <p>This WebForm project has two pages to attend the challenge.</p>
     </div>
 
     <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
+        <div class="col-md-6">
+            <h2>Amount Converter</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                In this program, the user will input an amount of value, and will be able to convert the amount into text for extention.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="~/AmountConvertPage">Amount Converter &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>Palindrome Check</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                In this other program, the user will input a number, and the system will return the information if this is a palindrome or not;
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="~/PalindromeCheckPage">Palindrome Check &raquo;</a>
             </p>
         </div>
     </div>

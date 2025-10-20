@@ -11,16 +11,25 @@ namespace ProgrammersNET
 {
 
 
-    public partial class SiteMaster
+    public partial class AmountConvertPage
     {
 
         /// <summary>
-        /// Controle MainContent.
+        /// Controle amountValue.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl amountValue;
+
+        /// <summary>
+        /// Controle txtResult.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtResult;
     }
 }
