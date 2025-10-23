@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Text;
+using System.Web.Services;
 
 namespace ProgrammersNET
 {
@@ -22,7 +23,8 @@ namespace ProgrammersNET
                 }
         }
 
-        static string ConvertAmountToWords(decimal amount)
+        [WebMethod]
+        public static string ConvertAmountToWords(decimal amount)
         {
             long dollars = (long)Math.Floor(amount);
             int cents = (int)((amount - dollars) * 100);

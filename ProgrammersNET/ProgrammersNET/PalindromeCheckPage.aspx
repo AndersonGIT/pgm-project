@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script>
         $(document).ready(function () {
-            $("#btnAmountTwo").click(function () {
+            $("#btnPalindromeCheckAjax").click(function () {
                 var valueInput = $("#valueInput").val();
 
                 if (!valueInput) {
@@ -48,8 +48,8 @@
                     <small id="valueInputHelp" class="form-text text-muted">The number to check if it is Palindrome or not.</small>
                     <p>
                         <br />
-                        <button type="submit" class="btn btn-primary" id="btnAmountCheck">Check</button>
-                        <button type="button" class="btn btn-info" id="btnAmountTwo" ClientIdMode="Static">Check by Ajax</button>
+                        <button type="submit" class="btn btn-primary" id="btnPalindromeCheck">Check</button>
+                        <button type="button" class="btn btn-info" id="btnPalindromeCheckAjax" ClientIdMode="Static">Check by Ajax</button>
                     </p>
                 </div>
                 <div class="form-group">
