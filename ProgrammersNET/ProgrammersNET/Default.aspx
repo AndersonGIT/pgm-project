@@ -8,7 +8,6 @@
         <p class="lead">This is a project built in .NET using ASP.NET WebForms.</p>
         <p>This WebForm project has two pages to attend the challenge.</p>
     </div>
-
     <div class="row">
         <div class="col-md-6">
             <h2>Amount Converter</h2>
@@ -16,16 +15,16 @@
                 In this program, the user will input an amount of value, and will be able to convert the amount into text for extention.
             </p>
             <p>
-                <a class="btn btn-default" href="~/AmountConvertPage">Amount Converter &raquo;</a>
+                <a class="btn btn-default" href="/AmountConvertPage">Amount Converter &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h2>Palindrome Check</h2>
             <p>
                 In this other program, the user will input a number, and the system will return the information if this is a palindrome or not;
             </p>
             <p>
-                <a class="btn btn-default" href="~/PalindromeCheckPage">Palindrome Check &raquo;</a>
+                <a class="btn btn-default" href="/PalindromeCheckPage">Palindrome Check &raquo;</a>
             </p>
         </div>
     </div>

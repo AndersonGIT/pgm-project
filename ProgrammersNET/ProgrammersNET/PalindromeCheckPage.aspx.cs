@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Web.Services;
 
 namespace ProgrammersNET
 {
@@ -31,7 +27,8 @@ namespace ProgrammersNET
                 }
         }
 
-        static bool IsPalindrome(int number)
+        [WebMethod]
+        public static bool IsPalindrome(int number)
         {
             if (number < 0)
                 return false;

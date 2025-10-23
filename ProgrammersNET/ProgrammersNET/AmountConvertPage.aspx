@@ -8,6 +8,7 @@
             <p>
                 This page is responsible to convert the amount into text extension value.
             </p>
+            <br />
         </div>
     </div>
     <div class="row">
