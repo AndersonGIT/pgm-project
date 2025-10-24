@@ -1,19 +1,16 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using ProgrammersNET;
 
 namespace ProgrammersNET.Tests
 {
     [TestClass]
-    public class ProgrammersNETTest
+    public class PalindromeCheckTest
     {
-        [TestMethod]
-        public void AmountConvert_ShouldReturnTrue_For2500()
-        {
-            string stringResult = AmountConvertPage.ConvertAmountToWords(2500);
-            Assert.AreEqual(stringResult, "Two Thousand Five Hundred and 00/100 dollars");
-        }
-
         [TestMethod]
         public void PalindromeCheck_ShouldReturnTrue_ForPalindromeNumber()
         {
