@@ -11,15 +11,15 @@ Public Class PalindromeCheckPage
     End Sub
 
     <WebMethod()>
-    Public Shared Function IsPalindrome(number As Integer) As Boolean
-        If number < 0 Then
-            Return False
-        End If
+    Public Shared Function IsPalindrome(input As String) As Boolean
+        'If Number < 0 Then
+        '    Return False
+        'End If
 
-        Dim text As String = number.ToString()
-        Dim reversed As Char() = text.ToCharArray()
+        'Dim text As String = Number.ToString()
+        Dim reversed As Char() = input.Replace(" ", "").ToLower().ToCharArray()
         Array.Reverse(reversed)
 
-        Return text = New String(reversed)
+        Return input.Replace(" ", "").ToLower() = New String(reversed).ToLower()
     End Function
 End Class

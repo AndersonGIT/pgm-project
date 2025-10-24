@@ -20,7 +20,7 @@ Partial Public Class PalindromeCheckPage
     '''Campo gerado automaticamente.
     '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
     '''</remarks>
-    Protected WithEvents valueInput As Global.System.Web.UI.HtmlControls.HtmlInputGenericControl
+    Protected WithEvents valueInput As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Controle btnPalindromeCheckAjax.

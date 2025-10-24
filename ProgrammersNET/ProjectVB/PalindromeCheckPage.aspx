@@ -11,7 +11,7 @@
                 $.ajax({
                     type: "POST",
                     url: '<%= ResolveUrl("PalindromeCheckPage.aspx/IsPalindrome") %>',
-                    data: JSON.stringify({ number: valueInput }),
+                    data: JSON.stringify({ input: valueInput }),
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
                     success: function (response) {
@@ -42,7 +42,7 @@
         <div class="col-md-8">
             <div class="form-group">
                 <label for="lblValueToCheck">Value To Check</label>
-                <input runat="server" type="number" min="1" class="form-control" id="valueInput" ClientIdMode="Static" aria-describedby="amountHelp" placeholder="Enter a positive number:">
+                <input runat="server" class="form-control" id="valueInput" ClientIdMode="Static" aria-describedby="amountHelp" placeholder="Enter a positive number:">
                 <small id="valueInputHelp" class="form-text text-muted">The number to check if it is Palindrome or not.</small>
                 <p>
                     <br />
