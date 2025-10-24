@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Meu Aplicativo ASP.NET</title>
+    <title><%: Page.Title %> - Anderson Diego</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -48,7 +48,7 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">Página Inicial</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home ~</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/AmountConvertPage">Amount Convert</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/PalindromeCheckPage">Palindrome Check</a></li>
                     </ul>
