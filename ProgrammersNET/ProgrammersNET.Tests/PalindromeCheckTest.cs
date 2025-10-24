@@ -18,13 +18,13 @@ namespace ProgrammersNET.Tests
         }
 
         [TestMethod]
-        public void IsPalindrome_ShouldReturnFalse_ForNonPalindrome()
+        public void PalindromeCheck_ShouldReturnFalse_ForNonPalindrome()
         {
             Assert.IsFalse(PalindromeCheckPage.IsPalindrome(123));
         }
 
         [TestMethod]
-        public void IsPalindrome_ShouldReturnTrue_ForSingleDigit()
+        public void PalindromeCheck_ShouldReturnTrue_ForSingleDigit()
         {
             Assert.IsTrue(PalindromeCheckPage.IsPalindrome(5));
         }
